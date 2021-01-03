@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="cash register manager" />
+		<meta name="description" content="A simple cash register manager" />
+		<meta name="author" content="sarath" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="icon" href="images/favicon.ico" type="image/png" sizes="16x16" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="images/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="images/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="images/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="images/site.webmanifest" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Cash register manager | 💰</title>
+	</head>
+	<body>
+		<main>
+			<h2>Simple cash register 🤑</h2>
+			<input
+				id="bill-amount-input"
+				type="number"
+				placeholder="enter the bill amount and press enter"
+				required
+			/>
+			<p hidden class="money-message">
+				Please enter bill amount money as number !
+			</p>
+			<!-- dynamic -->
+			<input
+				hidden
+				id="cash-amount-input"
+				type="number"
+				placeholder="enter the cash amount"
+				required
+			/>
+			<p hidden class="money-message">
+				Please enter cash amount money as number !
+			</p>
+			<!-- dynamic -->
+			<button type="button"><i class=""></i>pay</button>
+			<!-- dynamic -->
+			<p hidden id="message">
+				<!-- Hey payer 😎 , you can pay with the below mentioned minimum
+				denominations or pay later ! -->
+			</p>
+			<!-- dynamic -->
+			<table hidden id="denomination-table">
+				<tbody>
+					<tr>
+						<th>Rupee</th>
+						<th>Notes / coins</th>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>
