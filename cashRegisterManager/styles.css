@@ -95,11 +95,6 @@ th {
 tr:hover td {
 	background-color: #f8f6f6;
 	color: black;
-	transform: translate(1.1);
-	-webkit-transform: translate(1.1);
-	-moz-transform: translate(1.1);
-	-ms-transform: translate(1.1);
-	-o-transform: translate(1.1);
 }
 
 p {
