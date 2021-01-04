@@ -71,7 +71,7 @@ main > * {
 	color: var(--white-color);
 }
 
-/* Table  */
+/* Table Section */
 
 table {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -97,6 +97,8 @@ tr:hover td {
 	color: black;
 }
 
+/* Text */
+
 p {
 	text-align: center;
 	font-size: 1.3rem;
@@ -107,4 +109,13 @@ p {
 	color: red;
 	font-size: 1.4rem;
 	font-weight: bold;
+}
+
+/* Media query for screen size 450px */
+
+@media only screen and (max-width: 450px) {
+	input[type='number'] {
+		width: 80%;
+		font-size: 0.8rem;
+	}
 }
