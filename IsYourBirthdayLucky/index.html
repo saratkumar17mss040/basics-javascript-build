@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Check whether your birthday is lucky or not"
+		/>
+		<meta name="keywords" content="lucky, birthday" />
+		<meta name="author" content="Sarath" />
+		<title>Lucky birthday | 🍰</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- Start of main section -->
+		<main>
+			<h3>Check whether your birthday is lucky or not 😎</h3>
+			<input type="date" required />
+			<input type="number" placeholder="enter your lucky number" required />
+			<a id="privacy-notice" type="button">Privacy notice</a>
+			<!-- start of modal section -->
+			<div id="privacy-notice-modal" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<p>We don't store your data, period.</p>
+					<p>
+						We physically can't. We have nowhere to store it. We don't even have
+						server database 😫 to store it.
+					</p>
+				</div>
+			</div>
+			<!-- end of modal section -->
+			<button id="check" type="button">check</button>
+			<div class="loader">
+				<img src="/IsYourBirthdayLucky/images/loader.svg" alt="loader">
+			</div>
+			<p id="result"></p>
+		</main>
+		<!-- end of main section -->
+
+		<!-- start of footer section -->
+		<footer>
+			<strong>
+				<p>
+					My website
+					<a href="https://sarath-portfolio.netlify.app/">here</a>
+				</p>
+				<p>Social media links</p></strong
+			>
+			<ul>
+				<li>
+					<a
+						href="https://github.com/saratkumar17mss040"
+						class="fa fa-github"
+					></a>
+				</li>
+				<li>
+					<a
+						href="https://www.facebook.com/profile.php?id=100007801470075"
+						class="fa fa-facebook"
+					></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/sarath6110" class="fa fa-twitter"></a>
+				</li>
+				<li></li>
+				<li>
+					<a
+						href="https://www.linkedin.com/in/sarath-kumar-216b031b5/ "
+						class="fa fa-linkedin"
+					></a>
+				</li>
+				<li>
+					<a
+						href="https://www.reddit.com/user/sarathkumar-6110"
+						class="fa fa-reddit"
+					></a>
+				</li>
+			</ul>
+		</footer>
+		<!-- end of footer section -->
+		<script src="index.js"></script>
+	</body>
+</html>
